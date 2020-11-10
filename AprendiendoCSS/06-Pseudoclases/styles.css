@@ -1,0 +1,61 @@
+*{
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+/* Primer elemento de la lista */
+ul li:first-child{
+    color: purple;
+}
+
+/* Seleccionar cualquier elemento de la lista */
+ul li:nth-child(2){
+    color: orange;
+}
+
+/* Ultimo elemento de la lista */
+ul li:last-child{
+    color: green;
+}
+
+#mi_enlace{
+    font-size: 30px;
+    color: lightcoral;
+}
+
+/* No se ha visitado el enlace */
+#mi_enlace:link{
+    color: green;
+}
+
+/* Ya se ha visitado el enlace */
+#mi_enlace:visited{
+    color: orange;
+}
+
+/* Pasar por encima */
+#mi_enlace:hover{
+    color: blue;
+}
+
+/* Al dar click sobre */
+#mi_enlace:active{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed rebeccapurple;
+}
